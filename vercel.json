@@ -3,13 +3,23 @@
     {
       "source": "/(.*)",
       "destination": "/$1.html"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
     }
   ],
   "redirects": [
+    {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
+    },
     {
       "source": "/(.*).html",
       "destination": "/$1",
       "permanent": true
     }
-  ]
+  ],
+  "cleanUrls": true
 }
