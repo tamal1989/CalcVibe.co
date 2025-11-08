@@ -1,4 +1,4 @@
-# robots.txt for https://calcvibe.com
+# robots.txt for https://calcvibe.co
 # Generated: 2025-11-07
 # Purpose: Allow all crawlers, block nothing, expose sitemap
 
@@ -9,11 +9,12 @@ Allow: /
 Disallow:
 
 # Sitemap location
-Sitemap: https://calcvibe.com/sitemap.xml
+Sitemap: https://calcvibe.co/sitemap.xml
 
 # Optional: Block sensitive directories (if any)
 # Disallow: /admin/
 # Disallow: /private/
 
 # Crawl delay (optional, for heavy traffic)
+
 # Crawl-delay: 10
